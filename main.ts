@@ -2,7 +2,8 @@
  *
  * Created by: Ethan Choy
  * Created on: Sep 2025
- * This program ...
+ * This program moves forward if there is more than 10 cm of distance, but moves back and 90 
+   degrees if there is less than 10 cm of distance.
 */
 
 // variables 
