@@ -24,12 +24,12 @@ while (true) {
     basic.clearScreen()
     basic.showNumber(distanceOfObject)
     // move 
-if (distanceOfObject <= 10) {
-    basic.showIcon(IconNames.No)
-    robotbit.StpCarMove(-10, 48)
-    robotbit.StepperTurn(robotbit.Steppers.M1, robotbit.Turns.T1B4)
-} else {
-    basic.showIcon(IconNames.Yes)
-    robotbit.StpCarMove(10, 48)
-}
+    if (distanceOfObject <= 10) {
+        basic.showIcon(IconNames.No)
+        robotbit.StpCarMove(-10, 48)
+        robotbit.StepperTurn(robotbit.Steppers.M1, robotbit.Turns.T1B4)
+    } else {
+        basic.showIcon(IconNames.Yes)
+        robotbit.StpCarMove(10, 48)
     }
+}
